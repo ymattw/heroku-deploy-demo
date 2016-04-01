@@ -20,4 +20,4 @@ deploy:
     # travis encrypt $(heroku auth:token) -r ymattw/heroku-deploy-demo
     secure: "$HEROKU_API_KEY"
   app:
-    heroku: heroku-deploy-demo
+    master: heroku-deploy-demo
