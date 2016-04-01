@@ -18,6 +18,6 @@ deploy:
   provider: heroku
   api_key:
     # travis encrypt $(heroku auth:token) -r ymattw/heroku-deploy-demo
-    secure: "$HEROKU_API_KEY"
+    secure: "LETst5RQbi0FQVyTRsGAlXo8uXjMJBXwtraIhGcw/w70a47qy0MYkj1v8FzOZKDD/uYyK24E2HnqV/UAXdp7wRRJa+O51upwmMoUCUnkRbCQYQnd5p2SIBFQx8bearCT6avSzSHaYmGp8tKc/WUrwIQ5WZgwdr8qkGOc7Z2ZO56bYkkj4lBZt7CONnKa74AC3HRisIc93lDhRhjfo7gv2xOc+qah7Hmqg+rBwAPvdKhcB9s6g3G6au5+PL/l8MbO/L6HWHxJCknS1x+cgVxO3H0RU0NzK1pLbh4wbmpzASQh53Ic+KlarM/2oj159c1UaYdaPtNJJJXYoNHnl2Mld8TlAL+XtUbCEQlQVVpYGJBFfLfpoj8Di4hYX3B5Z52kfzQeY+CWZJ4Kt5OnN+ver7Am+B6nY4zg7lul6N470Ygo3eTVr76NC1SO3wM+dcYGDuReRPMwYppUH0OZBy69MlN7sFDlcF+5RxPxvqAydcjO7QrFs2fm5n1VVR2x27x1MSj+T8E75pVXlqePIH2cfPs3aofIjbQl0h15dC6RLfwjOcP93+47KoHryND+M171stSdgphKMZPCZ8I+2i/ZOkXpJxbfQY+/xkw/ORn5WQoXIKP1d0V34pG+AKrre1SlVi6h2yfVFxozJV5xYFmPkGouv22aAYrQgW3kFgLhnnw="
   app:
     master: heroku-deploy-demo
